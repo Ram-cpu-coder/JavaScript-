@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
-    width: 100vw;
+body{
+    width: 100%;
     height:auto
+}
+.wrapper{
+    width: 100%;
 }
 .navbar{
     display: flex;
@@ -13,14 +16,29 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    border: 1px solid black;
+    padding: 5px 20px;
 }
-
+.left-nav{
+    border: 2px solid red;
+}
 .left-nav a{
     text-decoration: none;
+    color: black;
+}
+.right-nav{
+    border: 2px solid red;
+}
+.right-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .right-nav li{
     list-style: none;
+    padding: 0 20px;
 }
 .right-nav ul li a{
     text-decoration: none;
+    color: black;
 }
