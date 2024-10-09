@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height:auto
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left-nav a{
+    text-decoration: none;
+}
+.right-nav li{
+    list-style: none;
+}
+.right-nav ul li a{
+    text-decoration: none;
+}
