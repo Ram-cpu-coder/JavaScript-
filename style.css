@@ -27,7 +27,7 @@ body{
     color: black;
 }
 .right-nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .right-nav ul{
     display: flex;
@@ -37,8 +37,35 @@ body{
 .right-nav li{
     list-style: none;
     padding: 0 20px;
+    
+    transition: transform 0.2s ease-in-out;
 }
-.right-nav ul li a{
+.nav-ul>li>a{
     text-decoration: none;
     color: black;
+    position: relative;
+    
+}
+.nav-ul>li:hover{
+    transform: scale(1.2);
+}
+.nav-ul>li>a::after{
+    content: "";
+    height: 1.5px;
+    width: 100%;
+
+    
+    position: absolute;
+    top: 20px;
+    left: 0px;
+
+    background: rgba(192, 188, 3, 0.887);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+
+}
+.nav-ul>li>a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
 }
