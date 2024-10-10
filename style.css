@@ -79,45 +79,13 @@ body{
 /* -------------------------------------------- */
 
 #hero {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 400px;
-    padding-top: 100px;
-    background: #3c31dd;
+    justify-content: center;
 }
 
-.curve {
-    position: absolute;
-    border: 2px solid black;
-    height: 250px;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-}
-
-.curve::before { 
-    /* border:2px solid red; */
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 80%;
-    width: 55%;
-    height: 100%;
-    transform: translate(81.5%, 60.5%);
-    background-color: hsl(157, 65%, 29%);
-}
-
-.curve::after {
-    border: 2px solid red;
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 100%;
-    background-color: #3c31dd;
-    transform: translate(-4%, 40%);
-    z-index: -1;
+#hero h1{
+    font-size: 30px;
+    font-family: "Exo 2", sans-serif;
 }
