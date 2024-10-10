@@ -3,26 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --bg-color: white;
-    --font-color: black;
 
-    
-    --black-color: black;
-    --white-color:white;
-}
 
-#theme:checked + .wrapper{
-    background: var(--black-color);
-    color: var(--white-color);
 
-}
 .wrapper{
     width: 100%;
     height: 100vh;
 
     display: flex;
-    gap: 20px;
+    /* gap: 10px; */
 }
 body{
     width: 100%;
@@ -37,7 +26,7 @@ body{
     left: 0;
     height: 100%;
     width: 8%;
-    background: rgba(148, 147, 148, 0.887);
+    background: rgba(0, 0, 0, 0.887);
 
 }
 .navbar{
@@ -97,21 +86,11 @@ body{
 
 .bottom-nav{
     /* border: 2px solid red; */
-    outline: none;
-    margin-bottom: 30px;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    
    
 }
 .bottom-nav:hover{
-    background: rgb(134, 133, 133);
-    cursor: pointer;
+  
 }
 .bottom-nav label{
     cursor: pointer;
@@ -126,6 +105,7 @@ body{
 
     width: 95%;
     min-height: 100vh;
+  
 }
 #hero svg{
     position: absolute;
@@ -153,13 +133,15 @@ body{
     font-weight: 600;
     font-family: "Exo 2", sans-serif;
     position: relative;
-    animation: slide 12s steps(10) infinite;
+    animation: slide 6s steps(10) infinite;
 }
 
 @keyframes slide {
+
     100%{
-        top: -360px;
+        top: -40px;
     }    
+
 }
 
 .dynamic-texts ul li::after{
