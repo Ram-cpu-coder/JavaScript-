@@ -16,11 +16,11 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 5px 20px;
 }
 .left-nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .left-nav a{
     text-decoration: none;
