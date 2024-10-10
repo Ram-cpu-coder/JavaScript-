@@ -1,0 +1,138 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+
+    /* border-right: 1px solid black; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 6%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.887);
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    padding: 0 10px;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+#logo-txt{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#highlight{
+    color: red;
+}
+.top-nav{
+    /* margin-top: 20px; */
+   
+}
+
+.icon-nav{
+    display: none;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    
+    /* border: 2px solid red; */
+}
+.top-nav li{
+    list-style: none;
+    padding: 0 20px;
+   
+}
+.nav-ul>li>a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    
+    font-family: "Exo 2", sans-serif;
+    
+}
+.nav-ul>li>a:active{
+    color: rgb(116, 113, 113);
+}
+.nav-link>i{
+    transition: transform 0.2s ease-in-out;
+}
+.nav-link>i:hover{
+    transform: scale(1.3);
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.nav-link-txt{
+    font-size: 16px;
+    text-align: center;
+}
+
+.bottom-nav{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.bottom-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.bottom-nav:hover{
+  
+}
+.bottom-nav label{
+    cursor: pointer;
+}
