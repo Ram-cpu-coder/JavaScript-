@@ -24,7 +24,7 @@ body{
     position: sticky;
     top: 50px;
     left: 0;
-    height: 90vh;
+    height: 94vh;
     grid-area: "list";
 
     display: flex;
