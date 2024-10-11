@@ -170,9 +170,9 @@ body{
     color: white;
     font-size: 18px;
 }
-.bottom-nav:hover{
-  
+.bottom-nav a:hover{
+    color: #5a98f7;
 }
-.bottom-nav label{
+.bottom-nav{
     cursor: pointer;
 }
