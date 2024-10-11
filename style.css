@@ -33,6 +33,7 @@ body{
 #hero svg{
     position: absolute;
     top: 50px;
+    z-index: -100;
 }
 
 #hero h1{
