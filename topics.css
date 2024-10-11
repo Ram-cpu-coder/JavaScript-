@@ -22,9 +22,9 @@ body{
     /* border: 2px dotted red; */
 
     position: sticky;
-    top: 50px;
+    top: 70px;
     left: 0;
-    height: 94vh;
+    height: 91vh;
     grid-area: "list";
 
     display: flex;
