@@ -5,27 +5,18 @@ body{
 #topics{
     display: flex;
     gap: 30px;
+    /* height: 100%; */
 }
-.wrapper-topics{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    min-height: 90vh;
-    width: 100%;
-    margin-top: 10px;
-}
-
 
 
 .topics-cards{
     /* border: 2px dotted red; */
 
+    margin-top: 70px;
     position: sticky;
     top: 70px;
     left: 0;
     height: 91vh;
-    grid-area: "list";
 
     display: flex;
     flex-direction: column;
@@ -38,6 +29,7 @@ body{
     flex-direction: column;
     align-items: center;
    
+    padding: 0 5px;
     border-right: 1px solid black;
     overflow-y: scroll;
 }
@@ -57,6 +49,9 @@ body{
 
 }
 
+.wrapper-topics{
+    margin-top: 60px;
+}
 .hero{
     /* border: 1px solid red; */
 
@@ -67,11 +62,15 @@ body{
     align-items: flex-start;
     gap: 5px;
 }
+
+#intro{
+    height: 100%;
+}
 .text{
-    padding: 10px 0;
+    /* margin: 10px 0; */
 }
 .para{
-    padding: 10px 0;
+    /* margin: 10px 0; */
 }
 .landscape-img img{
     border-radius: 10px;
