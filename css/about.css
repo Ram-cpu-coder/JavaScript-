@@ -1,0 +1,44 @@
+
+.wrapper-about{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+
+    gap: 50px;
+}
+.mission, .story{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+}
+.mission>.text{
+    display: flex;
+    justify-content: flex-end;
+}
+.text>p{
+    width: 50%;
+}
+
+.story{
+    flex-direction: row-reverse;
+}
+
+.story>.text{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-about{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+   
+    padding: 50px;
+}
