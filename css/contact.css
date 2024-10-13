@@ -142,6 +142,12 @@ body{
     font-size: smaller;
 }
 
+.professions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: smaller;
+}
 #professions{
     width: 30%;
     border-radius: 10px;
@@ -161,9 +167,17 @@ body{
 
     background: #5a98f7;
     margin-top: 10px;
+
+    transition: transform 0.2s ease-in-out;
 }
 
-
+.btn:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+.btn:active{
+    background: #3681f0;
+}
 
 
 

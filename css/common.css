@@ -165,6 +165,7 @@ body{
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
+    cursor: pointer;
 }
 .bottom-nav a{
     text-decoration: none;
@@ -173,9 +174,6 @@ body{
 }
 .bottom-nav a:hover{
     color: #5a98f7;
-}
-.bottom-nav{
-    cursor: pointer;
 }
 
 
