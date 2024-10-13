@@ -44,6 +44,8 @@ body{
     height: auto;
 
     padding: 0 50px;
+
+    z-index: 10000000090;
 }
 .logo{
     display: flex;
