@@ -1,5 +1,5 @@
 body{
-
+    font-family: "Exo 2", sans-serif;
 }
 
 #main{
@@ -42,7 +42,9 @@ body{
     justify-content: center;
 
     background: white;
-    border: 1px solid black;
+    backdrop-filter: blur(9px);
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.4);
     border-radius: 50px;
 
     position: absolute;
@@ -53,6 +55,10 @@ body{
     gap: 100px;
 
     padding: 50px;
+}
+.profile-header{
+    display: flex;
+    justify-content: center;
 }
 .profile-header h1{
     font-size: 50px;
