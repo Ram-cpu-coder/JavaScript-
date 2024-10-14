@@ -184,6 +184,7 @@ body{
 #footer{
     background: black;
     color: white;
+    padding: 20px;
 }
 .wrapper-footer{
     width: 100%;
