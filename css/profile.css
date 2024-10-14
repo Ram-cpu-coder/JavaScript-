@@ -1,8 +1,34 @@
 body{
-    height: 100vh;
-    width: 100%;
+
 }
 
 #main{
-    margin-top: 70px;
+    margin-top: 65px;
+}
+
+.wrapper-main{
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.topbg{
+    background: #5a98f7;
+    height: 40vh;
+    width: 100%;
+}
+.back{
+    position: fixed;
+    top: 90px;
+    left: 50px;
+    font-size: 30px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
 }
