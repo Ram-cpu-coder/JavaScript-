@@ -131,3 +131,9 @@ hr{
     flex-direction: column;
     gap: 20px;
 }
+th{
+    text-align: left;
+}
+td{
+    text-align: left;
+}
