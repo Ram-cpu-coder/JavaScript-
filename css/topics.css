@@ -51,8 +51,6 @@ body{
 
 .wrapper-topics{
     margin-top: 100px;
-    border: 1px solid black;
-    border-left: none;
     width: 70%;
 
     padding-left: 30px;
@@ -70,10 +68,18 @@ body{
 
 #intro{
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 #intro h1{
     margin-bottom: 30px;
+    font-size: 45px;
+}
+.header-type-p{
+    font-size: 30px;
+}
+.imp-word{
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(178, 3, 3);
 }
 .text{
     /* margin: 10px 0; */
@@ -94,5 +100,5 @@ body{
 }
 
 .para{
-    width: 70%;
+    width: 100%;
 }
