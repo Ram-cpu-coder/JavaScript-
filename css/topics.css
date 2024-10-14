@@ -83,7 +83,10 @@ body{
     padding: 2px;
 }
 .text{
-    /* margin: 10px 0; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .landscape-img img{
@@ -113,8 +116,18 @@ hr{
 }
 .para{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .para ul{
     padding-left: 10px;
+}
+
+.example{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
