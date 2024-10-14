@@ -169,7 +169,7 @@ body{
 }
 .bottom-nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 254, 254);
     font-size: 18px;
 }
 .bottom-nav a:hover{
