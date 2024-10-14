@@ -137,7 +137,9 @@ body{
     border-radius: 10px;
     padding: 10px;
 }
-
+.form form input:focus{
+    border: 2px solid black;
+}
 .form form input::placeholder{
     font-size: smaller;
 }
