@@ -30,7 +30,7 @@ body{
     flex-direction: column;
     align-items: center;
    
-    padding: 0 5px;
+    padding: 0 15px;
     overflow-y: scroll;
 }
 #li{
@@ -85,9 +85,7 @@ body{
 .text{
     /* margin: 10px 0; */
 }
-.para{
-    /* margin: 10px 0; */
-}
+
 .landscape-img img{
     margin-top: 5px;
     border-radius: 10px;
@@ -115,4 +113,8 @@ hr{
 }
 .para{
     width: 100%;
+}
+
+.para ul{
+    padding-left: 10px;
 }
