@@ -29,16 +29,16 @@ body{
 
     width: 100%;
     height: 100vh;
-  background: url('../Images/bg/pexels-florian-holly-2584321-6308163.jpg');
+  
 }
-.mainpage{
+/* .mainpage{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     height: auto;
-}
+} */
 
 #hero h1{
     font-size: 60px;
@@ -53,10 +53,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    
-    background: white;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 20px;
+   
 }
 
 .dynamic-texts{
@@ -129,8 +128,9 @@ body{
     outline: 1px solid #5a98f7;
 }
 .search button{
-    padding: 20px;
+    padding: 13px;
     border: 0.5px solid black;
+    border-left: none;
     border-radius: 0 10px 10px 0;
     outline: none;
 
@@ -140,4 +140,8 @@ body{
 
 .search button:active{
     background: grey;
+}
+
+.search button>i{
+    font-size: 30px;
 }
