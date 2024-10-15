@@ -121,21 +121,22 @@ body{
 #search{
     border: 0.5px solid black;
     border-radius: 10px 0 0 10px;
-    padding: 20px;
+    padding: 10.5px;
     width: 100%;
+    font-size: 30px;
 }
 #search:focus{
     outline: 1px solid #5a98f7;
 }
 .search button{
-    padding: 13px;
+    
     border: 0.5px solid black;
     border-left: none;
     border-radius: 0 10px 10px 0;
     outline: none;
 
     cursor: pointer;
-    font-size: 13.5px;
+    /* font-size: 13.5px; */
 }
 
 .search button:active{
@@ -144,4 +145,14 @@ body{
 
 .search button>i{
     font-size: 30px;
+    padding: 13px;
+}
+
+
+/* -----------------------media-query----------------------------- */
+
+@media screen and (max-width: 480px) {
+    .dynamic-texts ul{
+        width: 300px;
+    }
 }
