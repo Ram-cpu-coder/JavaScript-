@@ -1,8 +1,9 @@
-const val = "hello";
-console.log("val");
+const age = 20;
 
-const val1 = !val;
-
-if(val1){
-    console.log("It passed if condition!");
+if(age>=18){
+    console.log("You can enter the club!");
+} else if(age<15){
+    console.log("Kiddo! Go Home.")
+}else{
+console.log("You cannot enter the club! Sorry!");
 }
