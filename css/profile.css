@@ -16,6 +16,7 @@ body{
     justify-content: center;
 
     position: relative;
+
 }
 .topbg{
     background: #5a98f7;
@@ -41,7 +42,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    background: white;
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(9px);
     /* border: 1px solid black; */
     box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.4);
