@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topics | JavaScript</title>
+    <title>Statement | JavaScript</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/topics.css">
 
@@ -31,7 +31,7 @@
             <div class="top-nav">
                 <ul class="nav-ul">
                     <li>
-                        <a href="./index.html">
+                        <a href="../index.html">
                             <div class="nav-link">
                                 <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
                                 <div class="nav-link-txt">Home</div>
@@ -50,7 +50,7 @@
                     </li>
 
                     <li>
-                        <a href="./topics.html">
+                        <a href="../Pages/about.html">
                             <div class="nav-link">
                                 <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
                                 <div class="nav-link-txt">About Us</div>
@@ -59,7 +59,7 @@
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="../Pages/contact.html">
                             <div class="nav-link">
                                 <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
                                 <div class="nav-link-txt">Contact Us
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="hamburger" >
+            <div class="hamburger">
                 <a href=""><i class="fa-solid fa-bars"></i></a>
             </div>
         </nav>
@@ -89,10 +89,10 @@
         <div class="topics-cards">
 
             <ul>
-                <li id="li"><a href="#intro">Introduction of JavaScript</a></li>
+                <li id="li"><a href="./topics.html">Introduction of JavaScript</a></li>
                 <li id="li"><a href="./where-to.html">JS Where To</a></li>
                 <li id="li"><a href="./outputJS.html">JS Output</a></li>
-                <li id="li"><a href="./JSstatement.html">JS Statement</a></li>
+                <li id="li"><a href="#">JS Statement</a></li>
                 <li id="li"><a href="./JSsyntax.html">JS Syntax</a></li>
                 <li id="li"><a href="./JScomment.html">JS Comment</a></li>
                 <li id="li"><a href="./JSvariables.html">JS Variables</a></li>
@@ -141,19 +141,243 @@
         </div>
 
         <div class="wrapper-topics">
-                        
+            <div class="hero">
+                <!-- ----intro---- -->
+                <div id="intro">
+                    <h1>JavaScript Statement</h1>
 
+                    <div class="btn-previous-next">
+                        <a href="../Pages/JSstatement.html"><button type="button" class="btn"><i class="fa-solid fa-chevron-left"></i> Previous</button></a>
+                        <a href="../Pages/JScomment.html"><button type="button" class="btn">Next <i class="fa-solid fa-chevron-right"></i></button></a>
+                    </div>
+
+                    <hr>
+                    <div class="example">
+                        <p class="header-example">
+                            Example
+                        </p>
+
+                        <div class="code">
+                            <p class="img">
+                                <img src="../Images/statement.png">
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="text">
+                        <div class="para">
+                            <p class="header-type-p">
+                                JavaScript Programs
+                            </p>
+
+                            <p>
+                                <strong>Computer program </strong> is the set of the "instructions" to be executed by a
+                                computer.
+                            </p>
+                            <p>Changing the innerHTML property of an innerHTML is a common way to display a data in
+                                HTML.</p>
+                            <p>And in a programming language, these instructions are called <strong>statement</strong>.
+                            </p>
+                            <p>A <strong>JavaScript program</strong> is a list of those programming statements.</p>
+
+                            <div class="example">
+                                <div class="note">
+                                    <p>In HTML, JavaScript programs are executed by the web browser.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="para">
+                            <p class="header-type-p">
+                                JavaScript Statements
+                            </p>
+                            <p>
+                                JavaScript statements are composed of:
+                            </p>
+                            <p>Values, Operators, Expressions, Keywords and Comments.</p>
+                            <p>This following example tells the browser to write "Hello Dolly." inside an HTML element
+                                with id = "demo":
+                            </p>
+
+                            <div class="example">
+                                <div class="code">
+                                    <p class="header-example">
+                                        Example
+                                    </p>
+                                    <p class="img">
+                                        <img src="../Images/statement2.png">
+                                    </p>
+                                </div>
+                            </div>
+                            <p>Most JavaScript programs contain many JavaScript statements.</p>
+                            <p>The Statements are executed, one by one, in the same order as they are written.</p>
+
+                            <div class="example">
+                                <div class="code">
+                                    <div class="note">
+                                        <p>JavaScript programs (and JavaScript Statements) are often called JavaScript
+                                            code.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="para">
+                            <p class="header-type-p">
+                                Semicolons ;
+                            </p>
+                            <p>Semicolons separate the JavaScript Statements.</p>
+                            <p>We need to add Semicolon at the end of each statement.</p>
+
+
+                            <div class="example">
+
+                                <div class="code">
+                                    <p class="img">
+                                        <img src="../Images/use-ofsemicolon.png">
+                                    </p>
+                                </div>
+
+                                <p>When separted by semicolons, multiple Statements on one line are allowed.</p>
+
+                                <div class="code">
+                                    <p class="img">
+                                        <img src="../Images/use-of-semicolon2.png">
+                                    </p>
+                                </div>
+
+                                <div class="note">
+                                    <p>On the web, we might see the examples without semicolons.</p>
+                                    <p>Ending statement with the semicolons is not required, but highly recommended</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="para">
+                            <p class="header-type-p">
+                                JavaScript White Space
+                            </p>
+                            <p>In JavaScript, extra spaces are ignored.</p>
+                            <p>So, its better to make our code look good, clear and readable.</p>
+
+                            <div class="code">
+                                <p class="img">
+                                    <img src="../Images/whitespace.png">
+                                </p>
+                                <br>
+                                <p>It is the best idea to put spaces around the Operators like =, +, -, *, /.</p>
+                                <p class="img">
+                                    <img src="../Images/whitespace1.png">
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="para">
+                            <p class="header-type-p">
+                                JavaScript Code Blocks
+                            </p>
+                            <p>JavaScript statements can be grouped together in the block inside the curly bracket {...}</p>
+                            <p>The purpose JavaScript code block is to define the statements that is to be executed together.</p>
+                            <p>Common place to find the code block is in JavaScript Functions.</p>
+
+                            <div class="code">
+                                <p class="img">
+                                    <img src="../Images/function.png">
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="para">
+                            <p class="header-type-p">
+                                JavaScript Keywords
+                            </p>
+                            <p>JavaScript Statements often start with the <strong>Keywords</strong> to identify the JavaScript action to be performed.</p>
+                            <p>Some of the common Keywords are:</p>
+                            
+                            <table>
+                                <tr>
+                                    <th>Keyword</th>
+                                    <th>Description</th>
+                                </tr>
+                                <tr>
+                                    <td>var</td>
+                                    <td>Declares the variable</td>
+                                </tr>
+                                <tr>
+                                    <td>let</td>
+                                    <td>Declares a block variable</td>
+                                </tr>
+                                <tr>
+                                    <td>const</td>
+                                    <td>Declares a block constant</td>
+                                </tr>
+                                <tr>
+                                    <td>if</td>
+                                    <td>Marks a block of statements to be executed on a condition</td>
+                                </tr>
+
+                                <tr>
+                                    <td>switch</td>
+                                    <td>Marks a block of statements to be executed in different cases</td>
+                                </tr>
+                                <tr>
+                                    <td>for</td>
+                                    <td>Marks a block of statements to be executed in a loop</td>
+                                </tr>
+                                <tr>
+                                    <td>function</td>
+                                    <td>Declares a function</td>
+                                </tr>
+
+                                <tr>
+                                    <td>return</td>
+                                    <td>Exits a function</td>
+                                </tr>
+
+                                <tr>
+                                    <td>try</td>
+                                    <td>Implements error handling to a block of statements</td>
+                                </tr>
+                            </table>
+
+                       
+
+                            <div class="btn-previous-next">
+                                <a href="../Pages/outputJS.html"><button type="button" class="btn"><i class="fa-solid fa-chevron-left"></i> Previous</button></a>
+                                <a href="../Pages/JSsyntax.html"><button type="button" class="btn">Next <i class="fa-solid fa-chevron-right"></i></button></a>
+                            </div>
+                            <hr>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
 
-    
+
+
     <section id="footer">
         <div class="wrapper-footer">
             <div class="left-footer">
                 <p class="footer-header">Links</p>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="./topics.html">Topics</a></li>
+                    <li><a href="#">Topics</a></li>
                     <li><a href="./about.html">About Us</a></li>
                     <li><a href="./contact.html">Contact Us</a></li>
                 </ul>
