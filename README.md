@@ -1,7 +1,15 @@
 # Project Name
 
-![Project Logo](./Images/logo/logo-white-png.png) <!-- Optional logo -->
+![Project Logo](./Images/logo/logo-shadow-black.png) 
 
 ## Description
 
-A brief description of what the project does, its purpose, and any key features. Explain why it exists and what problem it solves.
+This project is all about a practise done by a learner. 
+
+Here in this project, one can have some knowledge related to JavaScript.
+
+## Technologies Used
+
+HTML
+CSS
+Very Little amount of JavaScript
