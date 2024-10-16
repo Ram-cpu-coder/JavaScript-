@@ -10,6 +10,4 @@ Here in this project, one can have some knowledge related to JavaScript.
 
 ## Technologies Used
 
-HTML
-CSS
-Very Little amount of JavaScript
+HTML, CSS, Very Little amount of JavaScript
