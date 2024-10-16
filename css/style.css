@@ -50,7 +50,7 @@ body{
 }
 
 .main-page-hero-container{
-    height: 78.5vh;
+    height: 80vh;
     min-height: 400px;
     width: 50%;
     display: flex;
@@ -125,7 +125,7 @@ body{
 }
 #search{
     border: 0.5px solid black;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
     padding: 10.5px;
     width: 100%;
     font-size: 30px;
@@ -137,7 +137,7 @@ body{
 .search button{
     border: 0.5px solid black;
     border-left: none;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 20px 20px 0;
     outline: none;
 
     cursor: pointer;
