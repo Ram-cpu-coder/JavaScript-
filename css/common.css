@@ -195,7 +195,7 @@ body{
 }
 .bar{
     width:40px;
-    height: 3px;
+    height: 4px;
     background: white;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -234,7 +234,7 @@ body{
 
 .icon .bar{
     width:40px;
-    height: 3px;
+    height: 4px;
     background: white;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -247,7 +247,7 @@ body{
     opacity: 0;
 }
 .icon #bar3{
-    transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-4px) rotate(-45deg);
 }
 
 
