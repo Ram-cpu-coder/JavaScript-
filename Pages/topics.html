@@ -33,7 +33,7 @@
                     <li>
                         <a href="../index.html">
                             <div class="nav-link">
-                                <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
+                                <!-- <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div> -->
                                 <div class="nav-link-txt">Home</div>
                             </div>
                         </a>
@@ -43,7 +43,7 @@
                     <li>
                         <a href="#">
                             <div class="nav-link">
-                                <div class="icon-nav"><i class="fa-solid fa-list-ul icon-nav"></i></div>
+                                <!-- <div class="icon-nav"><i class="fa-solid fa-list-ul icon-nav"></i></div> -->
                                 <div class="nav-link-txt">Topics</div>
                             </div>
                         </a>
@@ -52,7 +52,7 @@
                     <li>
                         <a href="./about.html">
                             <div class="nav-link">
-                                <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
+                                <!-- <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div> -->
                                 <div class="nav-link-txt">About Us</div>
                             </div>
                         </a>
@@ -61,7 +61,7 @@
                     <li>
                         <a href="./contact.html">
                             <div class="nav-link">
-                                <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
+                                <!-- <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div> -->
                                 <div class="nav-link-txt">Contact Us
                                 </div>
                             </div>
@@ -78,8 +78,54 @@
                 </div>
             </div>
 
-            <div class="hamburger" >
-                <a href=""><i class="fa-solid fa-bars"></i></a>
+            <div class="hamburger">
+                <div id="menu" onclick="onClickMenu()">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+                <div class="menu-nav" id="menu-nav">
+                    <ul>
+
+                        <li>
+                            <a href="#">
+                                <div class="nav-link">
+                                    <div class="icon-nav"><i class="fa-solid fa-house"></i></div>
+                                    <div class="nav-link-txt">Home</div>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="./Pages/topics.html">
+                                <div class="nav-link">
+                                    <div class="icon-nav"><i class="fa-solid fa-list-ul icon-nav"></i></div>
+                                    <div class="nav-link-txt">Topics</div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="./Pages/about.html">
+                                <div class="nav-link">
+                                    <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
+                                    <div class="nav-link-txt">About Us</div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li> <a href="./Pages/contact.html">
+                                <div class="nav-link">
+                                    <div class="icon-nav"><i class="fa-solid fa-house-chimney"></i></div>
+                                    <div class="nav-link-txt">Contact Us
+                                    </div>
+                                </div>
+                            </a></li>
+
+
+                    </ul>
+                </div>
             </div>
         </nav>
     </section>
@@ -260,6 +306,7 @@
         </div>
     </section>
 
+    <script src="../script.js"></script>
 </body>
 
 </html>
