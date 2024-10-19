@@ -184,8 +184,9 @@ td{
 /* ---------------------------examples-------------------------- */
 
 .js-example{
-    background: rgb(113, 113, 113);
+    background: rgba(113, 113, 113,0.5);
     color: white;
+    border-radius: 5px;
     padding: 30px;
 
     display: flex;
@@ -200,6 +201,7 @@ td{
 
 .js-text{
     background: white;
+    border-left: 10px solid #3681f0;
     color: black;
     padding: 5px;
     width: 100%;
