@@ -124,7 +124,7 @@ body{
 .imp-word{
     background: rgba(0, 0, 0, 0.1);
     color: rgb(190, 67, 67);
-    padding: 2px;
+    padding: 1.5px;
 }
 .text{
     width: 100%;
@@ -218,6 +218,14 @@ td{
 }
 .jsindex-num{
     color: red;
+}
+
+
+/* --------------------------simple-border-example--------------------------------------- */
+
+.simple-border-example{
+    border: 1px solid black;
+    padding: 10px;
 }
 /* -------------------------media-query---------------------------- */
 
