@@ -204,6 +204,7 @@ td{
     border-left: 10px solid #3681f0;
     color: black;
     padding: 5px;
+    letter-spacing: 1px;
     width: 100%;
 
     display: flex;
