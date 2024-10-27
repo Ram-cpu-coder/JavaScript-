@@ -81,13 +81,16 @@ body{
     font-weight: 600;
     font-family: "Exo 2", sans-serif;
     position: relative;
-    animation: slide 6s steps(10) infinite;
+    animation: slide 30s steps(10) infinite;
 }
 
 @keyframes slide {
-
+    /* 0%{
+        top: 0px;
+    } */
     100%{
-        top: -40px;
+        /* top: -400px; */
+        transform: translateY(-400px);
     }    
 
 }
